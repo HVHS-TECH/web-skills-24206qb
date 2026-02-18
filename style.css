@@ -1,3 +1,14 @@
 body {
     background-color: lightblue;
   }
+
+img {
+  border: 1px solid #662f1060;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+h3.G {
+  font : italic small-caps bold 12px/30px Georgia, serif;
+}
