@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: honeydew;
   }
 
 img {
@@ -12,3 +12,22 @@ img {
 h3.G {
   font : italic small-caps bold 12px/30px Georgia, serif;
 }
+
+header {
+  background-color: lightgray;
+    border: 2px solid #be988260;
+  border-radius: 4px;
+}
+
+aside {
+  width: 30%;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  background-color: lightgray;
+}
+
+footer{
+    background-color: lightgray;
+}
+)
