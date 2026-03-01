@@ -2,27 +2,31 @@ body {
     background-color: honeydew;
   }
 
-.imgs {
-  border: 1px solid #662f1060;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
 h3.G {
   font : italic small-caps bold 12px/30px Georgia, serif;
 }
 
 header {
   background-color: lightgray;
-    border: 2px solid #be988260;
+    border: 3px solid #be988260;
   border-radius: 4px;
+  margin: 3px;
 }
 
 
 .Information-about-myself{
   background-color: lightgray;
 }
+
+.navt {
+    background-color: rgb(209, 216, 221);
+  border: 3px solid #be988260;
+  padding: 3px;
+  margin: 3px;
+  font-style: serif;
+  
+}
+
 
 .grid-container {
   display: grid;
@@ -36,6 +40,13 @@ header {
   background-color: rgb(209, 216, 221);
   border: 3px solid #be988260;
   padding: 3px 0;
+}
+
+.imgs {
+  border: 1px solid #662f1060;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 
 footer{
