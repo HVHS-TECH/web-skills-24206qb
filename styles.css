@@ -2,16 +2,13 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
 }
-
 .container {
   display: grid;
   height: 945px;
-  background-color: rgb(255, 255, 255);
   grid-template-rows: 72px 80px 600px auto;
   grid-template-columns: auto 1200px auto;
 }
 .container div {
-  background-color: rgb(216,212,194);
   font-size: 30px;
   text-align: center;
 }
@@ -43,17 +40,43 @@ body {
 }
 
 .item6 {
+  background-color:aliceblue;
   grid-row: 3 / span 2;
 }
 
 .item9 {
+  background-color:aliceblue;
   grid-column: 5 / 4;
   grid-row: 3 / span 2;
 }
 
-.item7 {
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.gallery {
+  background-color:rgb(213, 234, 252);
   grid-column: 2 / span 2;
   grid-row: 3 / span 2;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
 
 .item2 {
