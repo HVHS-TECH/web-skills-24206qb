@@ -7,7 +7,7 @@ body {
 .container {
   display: grid;
   height: 945px;
-  grid-template-rows: 72px 80px 650px 118px;
+  grid-template-rows: 72px 80px 650px auto;
   grid-template-columns: auto 1200px auto;
 }
 .container div {
@@ -57,6 +57,8 @@ body {
   background-size: cover;
 }
 
+
+
 img{
   border-radius: 5px;
 }
@@ -65,5 +67,5 @@ img{
   grid-column: 1 / 5;
 }
 .item11 {
-    grid-column: 4 / 2;
+  grid-column: 4 / 2;
 }
